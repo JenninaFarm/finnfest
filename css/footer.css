@@ -1,0 +1,6 @@
+.footer {
+  scroll-snap-stop: always;
+	scroll-snap-align: end;
+  height: 45vh;
+  background-color: var(--nav-bg-color);
+}
