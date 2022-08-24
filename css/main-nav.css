@@ -1,0 +1,32 @@
+:root {
+  --nav-bg-color: #e26159;
+  --nav-text-color: #fed87a;
+  --nav-accent-color: #073052;
+}
+
+.main-nav {
+  background-color: var(--nav-bg-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav__link {
+  color: var(--nav-text-color);
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+.home-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--nav-accent-color);
+  font-weight: 700;
+}
+
+.home-link__caption {
+  font-size: 12px;
+}
