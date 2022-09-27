@@ -15,3 +15,7 @@
   object-fit: cover;
   object-position: right;
 }
+
+.image-liftup__img.focal-center {
+  object-position: center;
+}
