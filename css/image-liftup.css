@@ -1,0 +1,15 @@
+.image-liftup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.image-liftup__text-content {
+  width: 55%;
+}
+
+.image-liftup__img {
+  width: 55%;
+  /* height: auto; */
+}
