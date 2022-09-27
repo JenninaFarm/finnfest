@@ -1,0 +1,23 @@
+.card-collection__title {
+  text-decoration: underline;
+}
+
+.card-collection__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.person-card {
+  width: 400px;
+  height: 400px;
+}
+
+.person-card__img {
+  width: 100%;
+  height: 350px;
+}
+
+.person-card__caption {
+  background-color: brown;
+  color: white;
+}
