@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="./css/image-liftup.css">
 		<link rel="stylesheet" href="./css/card-collection.css">
 		<link rel="stylesheet" href="./css/footer.css">
+		<link rel="stylesheet" href="./css/link-with-icon.css">
 	</head>
 
 	<body>
@@ -40,23 +41,41 @@
 			<section class="scroll-snap-section">
 				<img class="full-width" src="./images/testi-etusivu.png" />
 			</section>
+
 			<footer class="footer">
-				<div>
-					<p>Location Address:</p>
-					<p>Scandic Paasitorni</p>
-					<p>Paasivuorenkatu 5 B,</p>
-					<p>00530 Helsinki</p>
+				<img class="footer__logo" src="./images/testi-logo.png" />
+				<div class="footer__address">
+					<p class="bold"><b>Location Address:</b></p>
+					<a href="https://www.paasitorni.fi/en/contact/how-to-find-us/" target="_blank">Scandic Paasitorni</a></br>
+					Paasivuorenkatu 5 B,</br>
+					00530 Helsinki</br>
+					<a class="link-with-icon" href="https://www.google.com/maps/place/Scandic+Paasi/@60.1786233,24.9457504,17z/data=!3m1!4b1!4m8!3m7!1s0x46920bd360b9d6b9:0xcf348ada4853086d!5m2!4m1!1i2!8m2!3d60.1786482!4d24.9479359" target="_blank">
+						<img class="link-with-icon__icon location" src="./images/icons/location.svg" />
+						<div class="link-with-icon__text">On maps</div>
+					</a>
 				</div>
-				<div>
-					<p>Contact:</p>
+				<div class="footer__contact">
+					<p class="bold">Contact:</p>
 					<p>grooveconnection.wcs@gmail.com</p>
 				</div>
-				<div>
-					<p>Social:</p>
-					<a>Facebook</a>
-					<a>Instagram</a>
-					<a>Scoring</a>
-					<a>Stream</a>
+				<div class="footer__social">
+					<p class="bold">Social:</p>
+					<a href="https://www.facebook.com/FinnfestWCS" target="_blank" class="link-with-icon">
+						<img class="link-with-icon__icon" src="./images/icons/facebook.svg" />
+						<div class="link-with-icon__text">Facebook</div>
+					</a>
+					<a href="https://www.instagram.com/finnfestwcs/" target="_blank" class="link-with-icon">
+						<img class="link-with-icon__icon" src="./images/icons/instagram.svg" />
+						<div class="link-with-icon__text">Instagram</div>
+					</a>
+					<a href="https://danceapp.net/en-gb/" target="_blank" class="link-with-icon">
+						<img class="link-with-icon__icon" src="./images/icons/task.svg" />
+						<div class="link-with-icon__text">Registration</div>
+					</a>
+					<a href="https://www.youtube.com/@finnfestwcs8428" target="_blank" class="link-with-icon">
+						<img class="link-with-icon__icon" src="./images/icons/youtube.svg" />
+						<div class="link-with-icon__text">YouTube</div>
+					</a>
 				</div>
 			</footer>
 		</div>

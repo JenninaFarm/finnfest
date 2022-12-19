@@ -4,8 +4,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: black;
+  text-underline-offset: 2px;
 }
 
 img {
@@ -17,6 +17,14 @@ img.full-width {
   height: 100vh;
 }
 
+svg {
+  color: black;
+}
+
 h2 {
   font-size: 40px;
+}
+
+.bold {
+  font-weight: 700;
 }
