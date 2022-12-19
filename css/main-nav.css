@@ -10,6 +10,11 @@
   align-items: center;
 }
 
+.main-nav.relative {
+  position: relative;
+  background-color: var(--nav-text-color);
+}
+
 .main-nav__link {
   color: var(--text-inverse);
   font-weight: 600;
