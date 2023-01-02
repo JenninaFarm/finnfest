@@ -2,8 +2,7 @@
   position: absolute;
   width: 100%;
   border-bottom: 1px solid var(--text-inverse);
-  background-color: var(--white-see-through);
-  backdrop-filter: blur(15px);
+  background-color: var(--main-bg-see-through);
   padding: 0rem;
   display: flex;
   justify-content: center;
@@ -20,6 +19,7 @@
   font-weight: 600;
   font-size: 18px;
   padding: 0.5rem;
+  text-decoration: none;
 }
 
 .home-link {

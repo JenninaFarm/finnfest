@@ -1,7 +1,8 @@
 :root {
   --text-inverse: #fff;
   --white-see-through: rgb(255, 255, 255, 0.2);
-  --main-bg-color: #dc4e43;
+  --main-bg: #9e1a15;
+  --main-bg-see-through: rgba(125, 4, 0, 0.7);
   --nav-text-color: #fed87a;
   --nav-accent-color: #073052;
 }
