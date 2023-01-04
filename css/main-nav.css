@@ -16,7 +16,7 @@
 
 .main-nav.relative {
   position: relative;
-  background-color: var(--nav-text);
+  background-color: var(--main-bg);
 }
 
 .main-nav__link {
