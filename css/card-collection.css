@@ -4,6 +4,13 @@
 
 .card-collection__items {
   display: grid;
+}
+
+.one-in-row {
+  grid-template-columns: 1fr;
+}
+
+.two-in-row {
   grid-template-columns: 1fr 1fr;
 }
 
@@ -29,4 +36,25 @@
   height: 50px;
   box-sizing: border-box;
   margin-top: -4px;
+}
+
+.width-card {
+  display: flex;
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+.width-card__img {
+  height: 100%;
+  width: 70%;
+}
+
+.width-card__content {
+  background-color: var(--nav-text-color);
+  margin: 0;
+  padding: 1rem;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
 }
