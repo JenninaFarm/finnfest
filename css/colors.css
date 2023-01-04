@@ -5,4 +5,8 @@
   --main-bg-see-through: rgba(125, 4, 0, 0.7);
   --nav-text-color: #fed87a;
   --nav-accent-color: #073052;
+
+  --mobile-breakpoint: 480px;
+  --tablet-breakpoint: 768px;
+  --laptop-breakpoint: 1024px;
 }
