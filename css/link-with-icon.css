@@ -9,6 +9,11 @@
   height: 32px;
   width: 32px;
   margin-right: 1rem;
+  color: var(--footer-text);
+}
+
+.link-with-icon__text {
+  color: var(--footer-text);
 }
 
 .link-with-icon__icon.location {
