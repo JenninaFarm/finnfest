@@ -19,11 +19,15 @@
 }
 
 .main-icon {
-  height: 55vh;
+  max-height: 55vh;
+  max-width: 90vh;
+  margin: 0 0.5rem;
 }
 
 .main-logo {
-  height: 15vh;
+  max-height: 15vh;
+  max-width: 90vh;
+  margin: 0 0.5rem;
 }
 
 .main-date-wrapper {
