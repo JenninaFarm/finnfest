@@ -1,9 +1,10 @@
 .footer {
+  padding: 0 1rem;
   scroll-snap-stop: always;
 	scroll-snap-align: end;
-  height: 400px;
   background-color: var(--main-bg);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 4rem;
   color: var(--footer-text);
@@ -26,7 +27,6 @@
 
 @media only screen and (max-width: 480px) {
   .footer {
-    padding: 0 1rem;
     padding-top: 2rem;
     flex-direction: column;
   }
