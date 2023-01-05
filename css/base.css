@@ -39,6 +39,17 @@ h1 {
 h2 {
   font-size: 40px;
   margin: 0;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+  max-width: 700px;
+  margin: auto;
 }
 
 p {
@@ -61,4 +72,15 @@ p {
 
 .right-gutter {
   margin-right: 1rem;
+}
+
+.with-background {
+  /*background-image: url("../images/Background_1920.png");
+  background-position: center;
+  background-image: linear-gradient(135deg, var(--nav-text-2), var(--orange), var(--main-bg-2));*/
+}
+
+.page__content-text {
+  max-width: 700px;
+  margin: 1.5rem auto;
 }
