@@ -1,8 +1,15 @@
 .hero {
   overflow: hidden;
   height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__wrapper {
+  width: 100%;
   max-width: 1800px;
   margin: auto;
+  overflow: hidden;
 }
 
 .hero__img {
