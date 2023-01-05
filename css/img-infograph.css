@@ -1,0 +1,20 @@
+.img-infograph {
+  /*overflow: hidden;*/
+  height: 300px;
+}
+
+.img-infograph__img {
+  height: 300px;
+  width: 100%;
+}
+
+.img-infograph__content {
+  background-color: var(--main-bg-see-through-less);
+  position: relative;
+  width: fit-content;
+  color: var(--text-inverse);
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: -240px;
+  text-align: center;
+}
