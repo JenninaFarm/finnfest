@@ -2,10 +2,13 @@
   --text-inverse: #fff;
   --white-see-through: rgb(255, 255, 255, 0.2);
   --main-bg: #9e1a15;
+  --main-bg-2: #dd3a34;
   --main-bg-see-through: rgba(125, 4, 0, 0.7);
   --main-bg-see-through-less: rgba(125, 4, 0, 0.85);
   --nav-text: #fed87a;
+  --nav-text-2: #fade97;
   --footer-text: #f5e9cc;
+  --orange: #f09165;
   --nav-accent: #073052;
 
   --mobile-breakpoint: 480px;
