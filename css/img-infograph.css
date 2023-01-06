@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+.img-infograph__link {
+  color: var(--text-inverse);
+}
+
 .img-infograph__content {
   background-color: var(--main-bg-see-through-less);
   position: relative;
