@@ -1,5 +1,4 @@
 .img-infograph {
-  /*overflow: hidden;*/
   height: 300px;
 }
 
@@ -21,4 +20,24 @@
   margin: 0 auto;
   margin-top: -240px;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .img-infograph {
+    height: 400px;
+  }
+
+  .img-infograph__content {
+    padding: 0.5rem;
+    margin-top: -280px;
+  }
+
+  .img-infograph__img {
+    height: 400px;
+  }
+
+  .page__content-text, h1, h2, h3, h4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
