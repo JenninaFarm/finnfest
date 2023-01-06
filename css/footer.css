@@ -1,5 +1,5 @@
 .footer {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   scroll-snap-stop: always;
 	scroll-snap-align: end;
   background-color: var(--main-bg);
