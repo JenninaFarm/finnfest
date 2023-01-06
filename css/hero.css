@@ -30,6 +30,10 @@
   margin-left: -750px;
 }
 
+.hero__title-bg--medium {
+  margin-left: -650px;
+}
+
 @media only screen and (max-width: 480px) {
   .hero {
     height: 200px;
