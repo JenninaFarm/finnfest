@@ -30,7 +30,8 @@
   margin-left: -750px;
 }
 
-.hero__title-bg--medium {
+.hero__title-bg--medium,
+.hero__title-bg--medium-minus {
   margin-left: -650px;
 }
 
@@ -51,5 +52,13 @@
   .hero__title-bg {
     margin-top: -155px;
     margin-left: -900px;
+  }
+
+  .hero__title-bg--medium {
+    margin-left: -830px;
+  }
+
+  .hero__title-bg--medium-minus {
+    margin-left: -870px;
   }
 }
