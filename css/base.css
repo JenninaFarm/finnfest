@@ -91,6 +91,14 @@ p {
   margin-right: 1rem;
 }
 
+.coming-soon {
+  background-color: var(--nav-text);
+  width: fit-content;
+  padding: 1.5rem 2rem;
+  font-weight: 700;
+  margin: 1.5rem auto;
+}
+
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 40px;
