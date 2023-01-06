@@ -35,6 +35,35 @@
   margin-left: -650px;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero {
+    height: 170px;
+  }
+
+  .hero__img {
+    height: 170px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+    margin-left: 1rem;
+    margin-top: -55px;
+  }
+
+  .hero__title-bg {
+    margin-top: -155px;
+    margin-left: -900px;
+  }
+
+  .hero__title-bg--medium {
+    margin-left: -830px;
+  }
+
+  .hero__title-bg--medium-minus {
+    margin-left: -870px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .hero {
     height: 200px;
