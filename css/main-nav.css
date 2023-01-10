@@ -3,7 +3,8 @@
   position: absolute;
   width: 100%;
   border-bottom: 1px solid var(--text-inverse);
-  background-color: var(--main-bg-see-through);
+  background-color: var(--main-bg-see-through-lot);
+  backdrop-filter: blur(10px);
   padding: 0rem;
   display: flex;
   justify-content: center;
