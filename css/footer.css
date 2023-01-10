@@ -10,6 +10,13 @@
   color: var(--footer-text);
 }
 
+.footer-glass {
+  border-top: 1px solid white;
+  background-color: var(--main-bg-see-though-lot);
+  backdrop-filter: blur(10px);
+  color: var(--text-inverse);
+}
+
 .footer__main-info {
   display: flex;
 }

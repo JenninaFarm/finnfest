@@ -107,13 +107,13 @@ p {
 
 .glassy {
   padding: 1.5rem 2rem;
-  width: fit-content;
   background-color: var(--main-bg-see-through-lot);
   backdrop-filter: blur(10px);
-  border-radius: 1rem;
+  border-radius: 2rem;
   transform: rotate(-4deg);
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 70px;
   color: var(--text-inverse);
 }
 
