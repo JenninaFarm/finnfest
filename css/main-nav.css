@@ -10,13 +10,17 @@
   align-items: center;
 }
 
-.burger-menu {
-  display: none;
-}
-
 .main-nav.relative {
   position: relative;
   background-color: var(--main-bg);
+}
+
+.main-nav__logo {
+  width: 100px;
+}
+
+.burger-menu {
+  display: none;
 }
 
 .main-nav__link {
