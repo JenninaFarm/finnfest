@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-family: 'signika', 'Calibri', 'sans-seref';
 }
 
 .page {
@@ -32,6 +33,10 @@ img.full-width {
 
 svg {
   color: black;
+}
+
+h1, h2, h3, h4 {
+  color: var(--text-inverse);
 }
 
 h1 {
