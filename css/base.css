@@ -6,6 +6,7 @@ body {
 .page {
   max-width: 900px;
   margin: auto;
+  padding-top: 100px;
 }
 
 .full-width {
@@ -77,9 +78,9 @@ p {
 }
 
 .with-background {
-  /*background-image: url("../images/Background_1920.png");
+  background-image: url("../images/Background_1920.png");
   background-position: center;
-  background-image: linear-gradient(135deg, var(--nav-text-2), var(--orange), var(--main-bg-2));*/
+  background-attachment: fixed;
 }
 
 .page__content-text {
@@ -97,6 +98,23 @@ p {
   padding: 1.5rem 2rem;
   font-weight: 700;
   margin: 1.5rem auto;
+}
+
+.glassy {
+  padding: 1.5rem 2rem;
+  width: fit-content;
+  background-color: var(--main-bg-see-through-lot);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  transform: rotate(-4deg);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-inverse);
+}
+
+.undo-rotate {
+  transform: rotate(4deg);
+  margin: 0;
 }
 
 @media only screen and (max-width: 480px) {
