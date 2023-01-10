@@ -5,6 +5,7 @@
 .img-infograph__img {
   height: 300px;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .img-infograph__link {
@@ -13,13 +14,19 @@
 
 .img-infograph__content {
   background-color: var(--main-bg-see-through-less);
+  border-radius: 2rem;
   position: relative;
   width: fit-content;
   color: var(--text-inverse);
-  padding: 1rem;
+  padding: 1.5rem 2.5rem;
   margin: 0 auto;
   margin-top: -240px;
   text-align: center;
+  transform: rotate(3deg);
+}
+
+.img-infograph__text {
+  transform: rotate(-3deg);
 }
 
 @media only screen and (max-width: 480px) {
