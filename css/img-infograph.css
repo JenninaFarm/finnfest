@@ -31,16 +31,17 @@
 
 @media only screen and (max-width: 480px) {
   .img-infograph {
-    height: 400px;
+    height: 300px;
   }
 
   .img-infograph__content {
     padding: 0.5rem;
-    margin-top: -280px;
   }
 
   .img-infograph__img {
-    height: 400px;
+    height: 300px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
   }
 
   .page__content-text, h1, h2, h3, h4 {
