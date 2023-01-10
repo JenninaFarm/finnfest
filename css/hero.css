@@ -91,3 +91,21 @@
     margin-left: -870px;
   }
 }
+
+.title-wrapper {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+}
+
+.title {
+  margin-top: 7px;
+  color: var(--footer-text);
+}
+
+.title-bg {
+  margin-top: -155px;
+  margin-left: -800px;
+  z-index: -1;
+  position: relative;
+}
